@@ -29,5 +29,8 @@
     "path": "^0.12.7",
     "pre-commit": "^1.2.2",
     "promisify": "^0.0.3"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11"
   }
 }
