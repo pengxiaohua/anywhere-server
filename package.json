@@ -1,0 +1,33 @@
+{
+  "name": "anywhere-server",
+  "version": "1.0.0",
+  "description": "A Node.js static web server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pengxiaohua/anywhere-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pengxiaohua/anywhere-server/issues"
+  },
+  "homepage": "https://github.com/pengxiaohua/anywhere-server#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pre-commit": "^1.2.2",
+    "promisify": "^0.0.3"
+  }
+}
